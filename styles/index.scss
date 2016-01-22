@@ -1,0 +1,9 @@
+.main {
+  @extend .container-fluid;
+  .homepage {
+    @extend .col-md-10;
+    @extend .col-md-offset-2;
+    top: 60px;
+    padding-left: 25px;
+  }
+}
